@@ -1,0 +1,259 @@
+{
+ "ch32c0": {
+  "area_um2": 18863.0912,
+  "delay_ps": 8009.5,
+  "fmax_mhz": 124.85,
+  "desc": "RNS \u5355\u901a\u9053 mod 2^32 (\u622a\u65ad)",
+  "method": "measured",
+  "power": {
+   "cells": 3366,
+   "p_leak_w": 7.5093177758e-09,
+   "p_tot_mW_a10": 16.131,
+   "p_tot_mW_a25": 40.328,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "ch31c1": {
+  "area_um2": 39495.3792,
+  "delay_ps": 27480.73,
+  "fmax_mhz": 36.39,
+  "desc": "RNS \u5355\u901a\u9053 mod 2^31-1 (\u6885\u68ee)",
+  "method": "measured",
+  "power": {
+   "cells": 7185,
+   "p_leak_w": 1.5320223356399997e-08,
+   "p_tot_mW_a10": 10.063,
+   "p_tot_mW_a25": 25.158,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "ch36c1": {
+  "area_um2": 41891.4272,
+  "delay_ps": 29745.96,
+  "fmax_mhz": 33.62,
+  "desc": "RNS \u5355\u901a\u9053 mod 2^36-1 (\u6885\u68ee)",
+  "method": "measured",
+  "power": {
+   "cells": 7619,
+   "p_leak_w": 1.624879385189999e-08,
+   "p_tot_mW_a10": 9.845,
+   "p_tot_mW_a25": 24.613,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "ch33c3": {
+  "area_um2": 45522.4096,
+  "delay_ps": 31550.78,
+  "fmax_mhz": 31.69,
+  "desc": "RNS \u5355\u901a\u9053 mod 2^33-3 (\u4f2a\u6885\u68ee)",
+  "method": "measured",
+  "power": {
+   "cells": 8241,
+   "p_leak_w": 1.7540503664e-08,
+   "p_tot_mW_a10": 10.083,
+   "p_tot_mW_a25": 25.209,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "ch30c5": {
+  "area_um2": 39211.3568,
+  "delay_ps": 31782.26,
+  "fmax_mhz": 31.46,
+  "desc": "RNS \u5355\u901a\u9053 mod 2^30-5 (\u4f2a\u6885\u68ee)",
+  "method": "measured",
+  "power": {
+   "cells": 7136,
+   "p_leak_w": 1.5125556412999994e-08,
+   "p_tot_mW_a10": 8.701,
+   "p_tot_mW_a25": 21.753,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "naive1024": {
+  "area_um2": 90075.1392,
+  "delay_ps": 80850.05,
+  "fmax_mhz": 12.37,
+  "desc": "Naive 1024b \u8865\u7801 MAC (\u8fdb\u4f4d\u94fe)",
+  "method": "measured",
+  "power": {
+   "cells": 12827,
+   "p_leak_w": 3.45775295721e-08,
+   "p_tot_mW_a10": 6.876,
+   "p_tot_mW_a25": 17.19,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "naive4096": {
+  "area_um2": 255742.7776,
+  "delay_ps": 590057.06,
+  "fmax_mhz": 1.69,
+  "desc": "Naive 4096b \u8865\u7801 MAC (\u8fdb\u4f4d\u94fe)",
+  "method": "measured",
+  "power": {
+   "cells": 32461,
+   "p_leak_w": 9.69861065035e-08,
+   "p_tot_mW_a10": 2.552,
+   "p_tot_mW_a25": 6.379,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "array8_1024": {
+  "area_um2": 317809.8048,
+  "delay_ps": 31112.62,
+  "fmax_mhz": 32.14,
+  "desc": "RNS MAC \u9635\u5217 8 \u901a\u9053 (1024b \u951a\u70b9)",
+  "method": "measured",
+  "power": {
+   "cells": 57494,
+   "p_leak_w": 1.2251894662660004e-07,
+   "p_tot_mW_a10": 71.465,
+   "p_tot_mW_a25": 178.663,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "array8_4096": {
+  "area_um2": 880216.6976,
+  "delay_ps": 44483.25,
+  "fmax_mhz": 22.48,
+  "desc": "RNS MAC \u9635\u5217 8x64b \u901a\u9053 (4096b \u951a\u70b9)",
+  "method": "measured",
+  "power": {
+   "cells": 158969,
+   "p_leak_w": 3.4081454311029995e-07,
+   "p_tot_mW_a10": 136.618,
+   "p_tot_mW_a25": 341.545,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "mrc_1024": {
+  "area_um2": 2420201.164799,
+  "cells": 401392,
+  "delay_ps": 300326.25,
+  "fmax_mhz": 3.33,
+  "desc": "RNS MRC \u9006\u8f6c\u6362\u5f15\u64ce (1024b, \u60f0\u6027)",
+  "method": "measured",
+  "basis": "full synth",
+  "power": {
+   "cells": 408111,
+   "p_leak_w": 8.640242594221999e-07,
+   "p_tot_mW_a10": 51.851,
+   "p_tot_mW_a25": 129.627,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "fma32": {
+  "area_um2": 46348.2,
+  "delay_ps": 21252.88,
+  "fmax_mhz": 47.05,
+  "desc": "FP32 FMA \u57fa\u7ebf (\u5148\u524d\u4f1a\u8bdd\u540c\u6d41\u7a0b\u5b9e\u6d4b)",
+  "method": "measured"
+ },
+ "fma64": {
+  "area_um2": 177716.69,
+  "delay_ps": 57531.09,
+  "fmax_mhz": 17.38,
+  "desc": "FP64 FMA \u57fa\u7ebf (\u5148\u524d\u4f1a\u8bdd\u540c\u6d41\u7a0b\u5b9e\u6d4b)",
+  "method": "measured"
+ },
+ "array35_1024": {
+  "area_um2": 1390417.9,
+  "fmax_mhz": 32.14,
+  "delay_ps": 31112.62,
+  "basis": "array8_1024 / 8 * 35 (\u901a\u9053\u89e3\u8026\u7ebf\u6027)",
+  "desc": "RNS MAC \u9635\u5217 35 \u901a\u9053 (1024b \u5168\u9635\u5217)",
+  "method": "extrapolated",
+  "power": {
+   "cells": 251536,
+   "p_leak_w": 5.360203914913751e-07,
+   "p_tot_mW_a10": 312.66,
+   "p_tot_mW_a25": 781.65,
+   "method": "linear extrapolated (8ch anchor x k), alpha=0.10/0.25, V=1.80V"
+  }
+ },
+ "array91_4096": {
+  "area_um2": 10012464.9,
+  "fmax_mhz": 22.48,
+  "delay_ps": 44483.25,
+  "basis": "array8_4096 / 8 * 91 (\u901a\u9053\u89e3\u8026\u7ebf\u6027)",
+  "desc": "RNS MAC \u9635\u5217 91 \u901a\u9053 (4096b \u5168\u9635\u5217)",
+  "method": "extrapolated",
+  "power": {
+   "cells": 1808272,
+   "p_leak_w": 3.876765427879662e-06,
+   "p_tot_mW_a10": 1554.03,
+   "p_tot_mW_a25": 3885.08,
+   "method": "linear extrapolated (8ch anchor x k), alpha=0.10/0.25, V=1.80V"
+  }
+ },
+ "mrc_4096": {
+  "area_um2": 6292523.028477401,
+  "delay_ps": 780848.25,
+  "fmax_mhz": 1.28,
+  "desc": "RNS MRC \u9006\u8f6c\u6362\u5f15\u64ce (4096b, \u60f0\u6027)",
+  "method": "extrapolated",
+  "basis": "mrc_1024 / 35 * 91",
+  "power": {
+   "cells": 1061089,
+   "p_leak_w": 2.2464630744977196e-06,
+   "p_tot_mW_a10": 51.82,
+   "p_tot_mW_a25": 129.55,
+   "method": "extrapolated: mrc_1024 x (91/35) x (f 1.28/3.33)"
+  }
+ },
+ "naive512": {
+  "area_um2": 62471.1648,
+  "delay_ps": 34956.89,
+  "fmax_mhz": 28.61,
+  "desc": "Naive \u8865\u7801 MAC 512b (32x32 \u4e58 + 512b \u8fdb\u4f4d\u94fe)",
+  "method": "measured",
+  "power": {
+   "cells": 9555,
+   "p_leak_w": 2.4173172565899998e-08,
+   "p_tot_mW_a10": 11.355,
+   "p_tot_mW_a25": 28.386,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "array8_512": {
+  "area_um2": 317809.8048,
+  "delay_ps": 31112.62,
+  "fmax_mhz": 32.14,
+  "desc": "RNS MAC \u9635\u5217 8 \u901a\u9053 (512b \u951a\u70b9, 18ch \u4f53\u7cfb)",
+  "method": "measured",
+  "power": {
+   "cells": 57494,
+   "p_leak_w": 1.2251894662660004e-07,
+   "p_tot_mW_a10": 71.465,
+   "p_tot_mW_a25": 178.663,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "array18_512": {
+  "area_um2": 691600.8,
+  "delay_ps": 37883.39,
+  "fmax_mhz": 26.4,
+  "desc": "RNS MAC \u9635\u5217 18 \u901a\u9053 (512b \u5168\u9635\u5217)",
+  "method": "measured",
+  "power": {
+   "cells": 125384,
+   "p_leak_w": 2.666554996942e-07,
+   "p_tot_mW_a10": 128.29,
+   "p_tot_mW_a25": 320.726,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ },
+ "mrc_512": {
+  "area_um2": 1256645.2224,
+  "delay_ps": 166478.39,
+  "fmax_mhz": 6.01,
+  "desc": "MRC \u9006\u8f6c\u6362\u5f15\u64ce 512b (18ch, \u60f0\u6027: 75\u62cd/\u6b21)",
+  "method": "measured",
+  "power": {
+   "cells": 205418,
+   "p_leak_w": 4.721643463317001e-07,
+   "p_tot_mW_a10": 49.047,
+   "p_tot_mW_a25": 122.617,
+   "method": "liberty-parsed, alpha=0.10/0.25, V=1.80V, @measured fmax"
+  }
+ }
+}

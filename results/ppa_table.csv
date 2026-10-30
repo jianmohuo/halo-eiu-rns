@@ -1,0 +1,20 @@
+design,desc,method,area_um2,delay_ps,fmax_mhz
+ch32c0,RNS 单通道 mod 2^32 (截断),measured,18863.0912,8009.5,124.85
+ch31c1,RNS 单通道 mod 2^31-1 (梅森),measured,39495.3792,27480.73,36.39
+ch36c1,RNS 单通道 mod 2^36-1 (梅森),measured,41891.4272,29745.96,33.62
+ch33c3,RNS 单通道 mod 2^33-3 (伪梅森),measured,45522.4096,31550.78,31.69
+ch30c5,RNS 单通道 mod 2^30-5 (伪梅森),measured,39211.3568,31782.26,31.46
+naive1024,Naive 1024b 补码 MAC (进位链),measured,90075.1392,80850.05,12.37
+naive4096,Naive 4096b 补码 MAC (进位链),measured,255742.7776,590057.06,1.69
+array8_1024,RNS MAC 阵列 8 通道 (1024b 锚点),measured,317809.8048,31112.62,32.14
+array8_4096,RNS MAC 阵列 8x64b 通道 (4096b 锚点),measured,880216.6976,44483.25,22.48
+mrc_1024,"RNS MRC 逆转换引擎 (1024b, 惰性)",measured,2420201.164799,300326.25,3.33
+fma32,FP32 FMA 基线 (先前会话同流程实测),measured,46348.2,21252.88,47.05
+fma64,FP64 FMA 基线 (先前会话同流程实测),measured,177716.69,57531.09,17.38
+array35_1024,RNS MAC 阵列 35 通道 (1024b 全阵列),extrapolated,1390417.9,31112.62,32.14
+array91_4096,RNS MAC 阵列 91 通道 (4096b 全阵列),extrapolated,10012464.9,44483.25,22.48
+mrc_4096,"RNS MRC 逆转换引擎 (4096b, 惰性)",extrapolated,6292523.028477401,780848.25,1.28
+naive512,Naive 补码 MAC 512b (32x32 乘 + 512b 进位链),measured,62471.1648,34956.89,28.61
+array8_512,"RNS MAC 阵列 8 通道 (512b 锚点, 18ch 体系)",measured,317809.8048,31112.62,32.14
+array18_512,RNS MAC 阵列 18 通道 (512b 全阵列),measured,691600.8,37883.39,26.4
+mrc_512,"MRC 逆转换引擎 512b (18ch, 惰性: 75拍/次)",measured,1256645.2224,166478.39,6.01

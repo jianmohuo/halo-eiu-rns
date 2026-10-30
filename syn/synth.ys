@@ -1,0 +1,10 @@
+# Minimal Yosys flow for eiu_rns_mac_array (SKY130HD)
+# Prereq: place sky130_fd_sc_hd__tt_025C_1v80.lib as sky.lib next to this script
+read_verilog -I../rtl ../rtl/rns_mod_add.v ../rtl/rns_mod_mul.v \
+    ../rtl/eiu_rns_mac_channel.v ../rtl/eiu_rns_mac_array.v
+hierarchy -check -top eiu_rns_mac_array -chparam NCH 8
+synth -top eiu_rns_mac_array -flatten -noabc
+dfflibmap -liberty sky.lib
+abc -liberty sky.lib -script +strash;amap;stime
+stat -liberty sky.lib
+write_blif netlists/array8.blif
